@@ -16,7 +16,7 @@ function App() {
       //using "value" to populate the field that was changed
       if (name === "fName") {
         //user edits this field
-        //from the html "form" => "input" has a property predefined called "name", the same for value
+        //from the html "form" => "input" has a property predefined called "name", the same for "value"
         return {
           fName: value, //the new value from that event
           lName: previousValue.lName,
